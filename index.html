@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR"></html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FinanceCare Login</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="conteiner">
+    <div class="logo">
+      <img src="./imagens/Logo.png" alt="FinanceCare Logo" />
+    </div>
+    <button class="button login-button">Login</button>
+
+    <button class="button google-button" onclick="googleLogin()">
+      <img src="./imagens/google.png" alt="Google Logo" />
+      <span>Acessar com conta Google</span>
+    </button>
+
+    <button class="button facebook-button" onclick="facebookLogin()">
+      <img src="./imagens/facebook.png" alt="Facebook Logo" />
+      <span>Acessar com conta Facebook</span>
+    </button>
+
+    <div class="register-link">
+      Se você não tem conta, <a href="#">cadastre aqui!</a>
+    </div>
+  </div>
+  <script>
+    function googleLogin() {
+      alert("Login com o Google");
+    }
+    function facebookLogin() {
+      alert("Login com o Facebook");
+    }
+  </script>
+</body>
